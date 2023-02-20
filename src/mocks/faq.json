@@ -1,0 +1,19 @@
+{
+    "dataFaq": [
+        {
+            "id": 1,
+            "question": "O que é marketing criativo?",
+            "answer": "O marketing criativo é uma ferramenta usada pelos anunciantes para conquistar uma audiência. A atenção é gerada em torno de um serviço, produto ou evento, usando várias ferramentas para criar uma mensagem coesa que se conecta com os usuários. Aspectos do marketing criativo incluem música, símbolos, obras de arte e design. Isso afeta a marca, a publicidade, a experiência do cliente e os produtos e serviços. O marketing criativo é crucial no desenvolvimento de uma conexão emocional. As conexões emocionais permitem que uma marca ou serviço seja memorável e relevante para os usuários. Quando o negócio e a marca estão alinhados, os resultados de marketing aumentam."
+        },
+        {
+            "id": 2,
+            "question": "Como minha empresa pode se beneficiar da parceria com sua agência?",
+            "answer": "O marketing digital on-line é um cenário em constante mudança e pode ser difícil saber por onde começar online se você não tiver uma base sólida no básico. Nossa agência pode fornecer orientação especializada e planos estratégicos adaptados à sua marca e aos seus objetivos de longo prazo. Agora que você encontrou nosso site de marketing digital, pode evitar as armadilhas comuns e seguir o caminho mais rápido para o crescimento de longo prazo."
+        },
+        {
+            "id": 3,
+            "question": "Como determinar meu orçamento de marketing?",
+            "answer": "Não há uma resposta única para essa pergunta, pois o valor que você deve alocar dependerá de vários fatores, como o tamanho do seu negócio, suas metas de longo prazo e os setores em que você opera."
+        }
+    ]
+}

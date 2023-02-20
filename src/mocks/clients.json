@@ -1,0 +1,28 @@
+{
+    "clients": [
+        {
+            "name": "Netshoes",
+            "logo": "netshoes.png"
+        },
+        {
+            "name": "Edoo",
+            "logo": "edoo.png"
+        },
+        {
+            "name": "Guaraná",
+            "logo": "guarana.jpg"
+        },
+        {
+            "name": "Afroish",
+            "logo": "afroish.png"
+        },
+        {
+            "name": "C&A",
+            "logo": "cea.jpg"
+        },
+        {
+            "name": "JTJ multi serviços",
+            "logo": "jtj.png"
+        }
+    ]
+}

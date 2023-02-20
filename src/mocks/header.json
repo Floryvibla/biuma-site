@@ -1,0 +1,50 @@
+{
+    "menus": [
+        {
+            "title": "Home",
+            "url": "/",
+            "items": false
+        },
+        {
+            "title": "Serviços",
+            "url": "/services",
+            "items": [
+                {
+                    "title": "Mídia social",
+                    "url": "/social-midia"
+                },
+                {
+                    "title": "Branding",
+                    "url": "/branding"
+                },
+                {
+                    "title": "Desenvolvimento de sites e aplicativo",
+                    "url": "/development"
+                },
+                {
+                    "title": "Marketing de influenciadores",
+                    "url": "/influencer-marketing"
+                },
+                {
+                    "title": "Produção de vídeo criativo",
+                    "url": "/video-production"
+                }
+            ]
+        },
+        {
+            "title": "Cases",
+            "url": "/cases",
+            "items": false
+        },
+        {
+            "title": "Quem somos",
+            "url": "/about-us",
+            "items": false
+        }
+    ],
+
+    "cta": {
+        "title": "CONSULTORIA GRATUITA",
+        "url": "/free-consulting"
+    }
+}

@@ -1,18 +1,38 @@
-// import './globals.css'
+"use client"
+
+import '../styles/globals.css'
+
+import { usePathname } from 'next/navigation'
+import { Inter, Merriweather } from '@next/font/google'
+
+import { PublicLayout } from './layouts'
+import { handleBackgroundColor } from '@/utils'
+import AppProvider from '@/provider'
+
+const inter = Inter({ subsets: ['latin'] })
+
+interface RootLayoutProps {
+  children: React.ReactNode
+}
 
 export default function RootLayout({
-  children
-}: {
-  children: React.ReactNode;
-}) {
+  children,
+}: RootLayoutProps) {
+
+  const type= 'public'
+  const pathname = usePathname()
+
+  const colorBackground = handleBackgroundColor(pathname)
+  
+
   return (
-    <html lang="pt-br">
-      {/*
-        <head /> will contain the components returned by the nearest parent
-        head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
-      */}
+    <html lang="pt-br" className={`${inter.className} ${colorBackground}`}>
       <head />
-      <body>{children}</body>
+      <body>
+        <AppProvider>
+          {type === 'public' && <PublicLayout>{children}</PublicLayout>}
+        </AppProvider>
+      </body>
     </html>
-  );
+  )
 }

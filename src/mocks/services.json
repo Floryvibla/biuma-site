@@ -1,0 +1,34 @@
+{
+    "dataServices": [
+        {
+            "title": "Mídia social",
+            "icon": "services-sm.svg",
+            "description": "Envolva seu público em suas plataformas favoritas para promover relacionamentos significativos que geram confiança e aproximação.",
+            "url": "/midia-social"
+        },
+        {
+            "title": "Marketing de influenciadores",
+            "icon": "services-influencer.svg",
+            "description": "Aumente o engajamento e as vendas com campanhas publicitárias de influenciadores estratégicos que criam um grande burburinho em torno de sua marca nas mídias sociais.",
+            "url": "/marketing-influencer"
+        },
+        {
+            "title": "Produção de vídeo criativo",
+            "icon": "services-video.svg",
+            "description": "Atenda à crescente fome de conteúdo digital multimídia por meio de uma produção e uma estratégia de vídeo eficaz e criativa que conta a história da sua marca e seus valores de maneira atraente.",
+            "url": "/video-production"
+        },
+        {
+            "title": "Branding",
+            "icon": "services-branding.svg",
+            "description": "Coloque os holofotes em sua marca e se destaque da multidão com uma campanha de branding inspirada que gera relações públicas positivas.",
+            "url": "/branding"
+        },
+        {
+            "title": "Desenvolvimento de sites e aplicativo",
+            "icon": "website-development.svg",
+            "description": "Otimize a experiência do cliente com um design de site intuitivo e rico em recursos que geram conversões. Projete e desenvolva aplicativos iOS e Android centrados no usuário que diferencie sua marca em um mercado saturado.",
+            "url": "/development"
+        }
+    ]
+}
